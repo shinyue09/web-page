@@ -1,0 +1,47 @@
+<!doctype html>
+<title>Cejay Grid</title>
+<style>
+#grid {
+  display: grid;
+  grid-template-rows: 50vh repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 20;
+}
+#grid > div {
+  color: white;
+  font-size: 5vw;
+  padding: 10px;
+  background: orange;
+}
+#grid > div:nth-child(1) {
+  grid-column: span 2;
+  background: black;
+  }
+#grid > div:nth-child(2) {
+  grid-row: span 1;
+  background: orange;
+  }
+#grid > div:nth-child(3) {
+  grid-row: span 1;
+  b
+  }
+#grid > div:nth-child(4) {
+  grid-row: span 1;
+  }
+#grid > div:nth-child(5) {
+  grid-row: span 1;
+  }
+  #grid > div:nth-child(6) {
+  grid-row: span 1;
+  background: black;
+  }
+</style>
+<body id="grid">
+  <div>Cejay Thrift Shop</div>
+  <div>Car Tees</div>
+  <div>Movie Tees</div>
+  <div>Celebrity Tees</div>
+  <div>Band Tees</div>
+  <div>Now Open</div>
